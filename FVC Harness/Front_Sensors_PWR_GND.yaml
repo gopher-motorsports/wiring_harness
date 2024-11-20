@@ -1,0 +1,104 @@
+connectors:
+  Front Right Brake Temp:
+    type: DTM 3-Pin
+    subtype: female
+    pinlabels: [5V, GND, Signal]
+  Front Left Brake Temp:
+    type: DTM 3-Pin
+    subtype: female
+    pinlabels: [5V, GND, Signal]
+  Front Right Wheel Speed:
+    type: DTM 3-Pin
+    subtype: female
+    pinlabels: [5V, GND, Signal]
+  Front Right Left Wheel:
+    type: DTM 3-Pin
+    subtype: female
+    pinlabels: [5V, GND, Signal]
+  Accelerator Pedal Position Sensor:
+    type: DTM 3-Pin
+    subtype: female
+    pinlabels: [5V, GND, Signal]
+  Brake Pedal Position Sensor:
+    type: DTM 3-Pin
+    subtype: female
+    pinlabels: [5V, GND, Signal]
+  Brake Pressure Sensor:
+    type: DTM 3-Pin
+    subtype: female
+    pinlabels: [5V, GND, Signal]
+  Steering Angle Sensor:
+    type: DTM 3-Pin
+    subtype: female
+    pinlabels: [5V, GND, Signal]
+  Front Left Shock Potentiometer:
+    type: DTM 3-Pin
+    subtype: female
+    pinlabels: [5V, GND, Signal]
+  Front Right Shock Potentiometer:
+    type: DTM 3-Pin
+    subtype: female
+    pinlabels: [5V, GND, Signal]
+  Front Ride Height Sensor:
+    type: DTM 3-Pin
+    subtype: female
+    pinlabels: [5V, GND, Signal]
+  Temperature and Humidity Sensor:
+    type: DTM 3-Pin
+    subtype: female
+    pinlabels: [5V, GND, Signal]
+  Pitot Module:
+    type: Custom
+    subtype: female
+    pinlabels: [5V, GND]
+
+
+cables:
+  Front Right Brake Temp:
+    gauge: 0.25 mm2
+    length: 0.2
+    color_code: DIN
+    wirecount: 2
+    shield: false
+  Front Right Wheel Speed:
+    gauge: 0.25 mm2
+    length: 0.2
+    color_code: DIN
+    wirecount: 2
+    shield: false
+  Front Right Wheel:
+    gauge: 0.25 mm2
+    length: 0.2
+    color_code: DIN
+    wirecount: 2
+    shield: false
+  Steering Angle:
+    gauge: 0.25 mm2
+    length: 0.2
+    color_code: DIN
+    wirecount: 2
+    shield: false
+  Ride Height:
+    gauge: 0.25 mm2
+    length: 0.2
+    color_code: DIN
+    wirecount: 2
+    shield: false
+  Front Left Wheel:
+    gauge: 0.25 mm2
+    length: 0.2
+    color_code: DIN
+    wirecount: 2
+    shield: false
+
+connections:
+  -
+    - Front Right Brake Temp: [1,2]
+    - Front Right Wheel: [1,2]
+  -
+    - Front Right Wheel Speed: [1,2]
+    - Front Right Wheel: [1,2]
+  -
+    - Front Ride Height Sensor: [1,2]
+    - Steering Angle Sensor: [1,2]
+    - Front Left Wheel: [1,2]
