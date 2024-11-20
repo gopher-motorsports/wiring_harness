@@ -100,5 +100,4 @@ connections:
     - Front Right Wheel: [1,2]
   -
     - Front Ride Height Sensor: [1,2]
-    - Steering Angle Sensor: [1,2]
     - Front Left Wheel: [1,2]
