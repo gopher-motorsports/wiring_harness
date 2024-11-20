@@ -1,3 +1,5 @@
 Id	Description	Qty	Unit	Designators
-1	Cable, 2 x 0.25 mm²	0.4	m	Front Left Wheel, Front Right Wheel
-2	Connector, DTM 3-Pin, female, 3 pins	3		Front Ride Height Sensor, Front Right Brake Temp, Front Right Wheel Speed
+1	Cable, 2 x 0.25 mm²	1.8	m	Front Left Brake Temp, Front Left Shock, Front Left Wheel Speed, Front Right Brake Temp, Front Right Wheel, Front Right Wheel Speed, Ride Height, Steering Angle, TOP Harness
+2	Cable, 3 x 0.25 mm²	0.2	m	FL Harness
+3	Connector, DTM 3-Pin, female, 3 pins	7		Front Left Brake Temp Sensor, Front Left Shock Potentiometer, Front Left Wheel Speed Sensor, Front Ride Height Sensor, Front Right Brake Temp Sensor, Front Right Wheel Speed Sensor, Steering Angle Sensor
+4	Connector, splice, CU	10		
